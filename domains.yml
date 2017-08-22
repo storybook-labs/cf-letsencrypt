@@ -1,22 +1,6 @@
-{
-  "email": "ben@example.com",
-  "staging": false,
-  "domains": [
-    {
-      "domain": "example.com",
-      "hosts": [
-        ".",
-        "auth",
-        "test",
-        "www"
-      ]
-    },
-    {
-      "domain": "example2.com",
-      "hosts": [
-        "abc",
-        "test"
-      ]
-    }
-  ]
-}
+email: q@world.oberlin.edu
+staging: false
+domains:
+- domain: storybooklabs.io
+  hosts:
+  - api

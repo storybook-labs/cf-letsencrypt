@@ -1,4 +1,6 @@
 cffi >= 0.8.0
+cryptography >= 1.3.4
+idna == 2.5
 letsencrypt >= 0.7.0
 six>=1.7
 pyyaml>=3.11
