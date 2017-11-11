@@ -61,7 +61,12 @@ time.sleep(60)
 
 print("Calling letsencrypt...")
 
-cli.main(args)
+try:
+    cli.main(args)
+except:
+    print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Panic! there was a problem. shell in and inspect ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
+    time.sleep(3600)
+
 
 print("Done.")
 print("Fetch the certs and logs via cf files ...")
