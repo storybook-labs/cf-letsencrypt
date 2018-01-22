@@ -4,3 +4,4 @@ domains:
 - domain: storybooklabs.io
   hosts:
   - api
+  - oblivio
